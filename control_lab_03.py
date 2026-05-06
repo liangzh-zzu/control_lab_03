@@ -599,7 +599,7 @@ elif experiment == "🎥 倒立摆小车实时动画":
         st.success("动画已保存为 cartpole_animation.html，可在当前文件夹找到。")
 
 # ---------- 实验一：时域分析 ----------
-elif experiment == "📈 时域分析（阶跃/脉冲/斜坡）":
+if experiment == "📈 时域分析（阶跃/脉冲/斜坡）":
     st.header("时域响应分析")
     col1, col2 = st.columns(2)
     with col1:
