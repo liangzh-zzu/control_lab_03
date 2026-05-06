@@ -111,7 +111,7 @@ def render_animation_html(fig, anim):
     return jshtml
 
 # ---------- 实验一：时域分析 ----------
-elif experiment == "📈 时域分析（阶跃/脉冲/斜坡）":
+if experiment == "📈 时域分析（阶跃/脉冲/斜坡）":
     st.header("时域响应分析")
     col1, col2 = st.columns(2)
     with col1:
